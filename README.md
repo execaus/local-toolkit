@@ -10,7 +10,7 @@ Local Toolkit is a macOS menu bar app with two local utilities: speech dictation
 - Keep the Mac and display awake during idle time, manually, for a timer duration, or on a weekly schedule. System lock, explicit sleep, a closed lid, and device policies still apply.
 - Check for signed updates manually from the settings window.
 
-The app keeps the existing bundle identifier and bundle filename during this update so installed copies can receive it through Sparkle. Its visible product name is Local Toolkit. On first launch, the sleep utility imports locally stored settings from the predecessor app. The predecessor's login item is not changed; disable it separately if it is still installed.
+The app keeps its existing bundle identifier for update and permission compatibility. The release provides two archives: `LocalToolkit-0.3.0-manual-macos-arm64.zip` contains `Local Toolkit.app` for manual installation, while `LocalToolkit-0.3.0-macos-arm64.zip` retains the previous bundle filename for Sparkle updates. On first launch, the sleep utility imports locally stored settings from the predecessor app. The predecessor's login item is not changed; disable it separately if it is still installed.
 
 ## Build
 
