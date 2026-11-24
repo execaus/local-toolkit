@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>LocalDictationSpike</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 24 Nov 2026 10:48:24 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Local Toolkit 0.3.0
+
+- The app now uses the visible name Local Toolkit. Its existing internal bundle identity and package filename are retained so previously installed copies can receive the update.
+- Wake, screen-wake, and time-change notifications are forwarded safely to the main actor. Idle-sleep assertions are renewed after wake.
+- Local diagnostics now record state transitions, periodic heartbeats, and whether the prior session ended without a normal termination marker. Logs contain no recorded audio or recognized text.
+- Settings show when launch at login is off. This option controls startup after login; it does not restart a process after an unexpected exit.
+
+Dictation and idle-sleep control remain local. Update checks contact GitHub only when requested. The build still uses an ad hoc macOS signature, so an operating-system permission prompt may recur after installation until a stable signing identity is configured.
+]]></description>
+            <enclosure url="https://github.com/execaus/local-toolkit/releases/download/v0.3.0/LocalToolkit-0.3.0-macos-arm64.zip" length="537894700" type="application/octet-stream" sparkle:edSignature="sup8ZYaDTUH6aDhx/jXPnBZv6y9TnAttdFpYOoyOeS09mdh4GZ3WPh3FBD2qp86AwDrN6t+EPDzoWG++874+Ag=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: pcC6NIPpw1ltx4UZw16Gk+yLNr5zUlEu/ujSeCmF+jdNdGgz2o2LIUbT6OhOdEOVhMihbMrYHwvbh/SCaOZjCg==
+length: 2171
+-->
